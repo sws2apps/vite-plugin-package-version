@@ -4,11 +4,7 @@
   "publishConfig": {
     "access": "public"
   },
-<<<<<<< HEAD
-  "version": "1.0.0",
-=======
   "version": "1.0.1",
->>>>>>> b4f9d7043018fd8d3e6ca831a0c4828630642662
   "keywords": [
     "vite",
     "typescript",
@@ -46,6 +42,7 @@
   },
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.2",
+    "@semantic-release/exec": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "cypress": "^12.1.0",
     "rimraf": "^3.0.2",
