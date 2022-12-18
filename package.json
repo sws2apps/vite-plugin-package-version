@@ -32,7 +32,9 @@
     "build": "rimraf dist && tsup src/index.ts --dts",
     "demo:clean": "rimraf demo/{dist,package-lock.json,node_modules} && npm -C demo install",
     "demo:dev": "npm -C demo run dev",
-    "demo:prod": "npm -C demo run build && npm -C demo run serve"
+    "demo:prod": "npm -C demo run build && npm -C demo run serve",
+    "cypress:build": "npm run build && npm run demo:clean",
+    "cypress:start": "npm run demo:dev && npm run demo:prod"
   },
   "peerDependencies": {
     "vite": ">=4.0.0"
