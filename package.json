@@ -1,6 +1,9 @@
 {
   "name": "@sws2apps/vite-plugin-package-version",
-  "description": "A vite plugin to load package version into environment variables",
+  "description": "A Vite plugin to load package version into environment variables",
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "1.0.0",
   "keywords": [
     "vite",
