@@ -38,7 +38,7 @@
     "vite": ">=4.0.0"
   },
   "devDependencies": {
-    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/changelog": "^6.0.2",
     "@semantic-release/git": "^10.0.1",
     "cypress": "^12.1.0",
     "rimraf": "^3.0.2",
