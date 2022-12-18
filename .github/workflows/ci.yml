@@ -30,4 +30,6 @@ jobs:
           browser: chrome
           install: false
           build: npm run cypress:build
-          start: npm run cypress:start
+          start: |
+            npm run demo:dev
+            npm run demo:prod

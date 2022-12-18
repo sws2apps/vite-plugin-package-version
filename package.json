@@ -21,7 +21,7 @@
   },
   "license": "MIT",
   "homepage": "https://github.com/sws2apps/vite-plugin-package-version#readme",
-  "main": "dist/index.cjs",
+  "main": "dist/index.js",
   "files": [
     "dist"
   ],
@@ -29,12 +29,11 @@
     "clean": "rimraf {dist,package-lock.json,node_modules} && npm i",
     "test": "npx cypress run --browser chrome",
     "dev": "tsup src/index.ts --dts --watch",
-    "build": "rimraf dist && tsup src/index.ts --dts",
+    "build": "rimraf dist && tsup src/index.ts --dts --format esm",
     "demo:clean": "rimraf demo/{dist,package-lock.json,node_modules} && npm -C demo install",
     "demo:dev": "npm -C demo run dev",
     "demo:prod": "npm -C demo run build && npm -C demo run serve",
-    "cypress:build": "npm run build && npm run demo:clean",
-    "cypress:start": "npm run demo:dev && npm run demo:prod"
+    "cypress:build": "npm run build && npm run demo:clean"
   },
   "peerDependencies": {
     "vite": ">=4.0.0"
