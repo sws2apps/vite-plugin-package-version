@@ -24,20 +24,12 @@ jobs:
       - name: Install package dependencies
         run: npm ci
 
-      - name: Build module
-        run: npm run build
-      
-      - name: Prepare demo project for testing
-        run: npm run demo:clean
-
-      - name: Run cypress to test behavior during development
+      - name: Run cypress test
         uses: cypress-io/github-action@c5724eda82337bcff977ce14509f47052c12e04c
         with:
           browser: chrome
-          start: npm run demo:dev
-
-      - name: Run cypress to test behavior in production
-        uses: cypress-io/github-action@c5724eda82337bcff977ce14509f47052c12e04c
-        with:
-          browser: chrome
-          build: npm run demo:prod
+          install: false
+          build: npm run cypress:build
+          start: |
+            npm run demo:dev
+            npm run demo:prod
