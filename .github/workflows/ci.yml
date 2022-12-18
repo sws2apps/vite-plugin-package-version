@@ -30,14 +30,5 @@ jobs:
       - name: Prepare demo project for testing
         run: npm run demo:clean
 
-      - name: Run cypress to test behavior during development
-        uses: cypress-io/github-action@c5724eda82337bcff977ce14509f47052c12e04c
-        with:
-          browser: chrome
-          start: npm run demo:dev
-
-      - name: Run cypress to test behavior in production
-        uses: cypress-io/github-action@c5724eda82337bcff977ce14509f47052c12e04c
-        with:
-          browser: chrome
-          build: npm run demo:prod
+      - name: Run cypress test
+        run: npm run test
