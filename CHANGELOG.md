@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/sws2apps/vite-plugin-package-version/compare/v1.0.1...v1.0.2) (2022-12-18)
+
+
+### Bug Fixes
+
+* **module:** build folder is empty ([27a9fcb](https://github.com/sws2apps/vite-plugin-package-version/commit/27a9fcb29870705927e776c7de414223125b206c))
+
 ## [1.0.1](https://github.com/sws2apps/vite-plugin-package-version/compare/v1.0.0...v1.0.1) (2022-12-18)
 
 
