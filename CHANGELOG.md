@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/sws2apps/vite-plugin-package-version/compare/v1.0.0...v1.0.1) (2022-12-18)
+
+
+### Bug Fixes
+
+* **build:** add publish config ([7e74604](https://github.com/sws2apps/vite-plugin-package-version/commit/7e74604e69e63b611dbcdaa0c74bd36d6259ec12))
+
 # 1.0.0 (2022-12-18)
 
 
