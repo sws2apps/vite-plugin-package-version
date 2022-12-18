@@ -1,8 +1,8 @@
 {
-  "name": "vite-plugin-package-version",
-  "license": "MIT",
-  "description": "vite plugin to load package version into env",
-  "version": "1.0.2",
+  "name": "@sws2apps/vite-plugin-package-version",
+  "description": "A vite plugin to load package version into environment variables",
+  "version": "1.0.0",
+  "type": "module",
   "keywords": [
     "vite",
     "typescript",
@@ -10,35 +10,40 @@
     "version",
     "environment"
   ],
-  "author": "Simon Haugen",
+  "author": "Scheduling Workbox System <sws2apps.notification@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/smnhgn/vite-plugin-package-version.git"
+    "url": "git+https://github.com/sws2apps/vite-plugin-package-version.git"
   },
+  "bugs": {
+    "url": "https://github.com/sws2apps/vite-plugin-package-version/issues",
+    "email": "sws2apps.notification@gmail.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/sws2apps/vite-plugin-package-version#readme",
   "main": "dist/index.js",
   "files": [
     "dist"
   ],
   "scripts": {
     "clean": "rimraf {dist,package-lock.json,node_modules} && npm i",
-    "test": "jest",
+    "test": "npx cypress run --browser chrome",
     "dev": "tsup src/index.ts --dts --watch",
     "build": "rimraf dist && tsup src/index.ts --dts",
     "demo:clean": "rimraf demo/{dist,package-lock.json,node_modules} && npm -C demo install",
     "demo:dev": "npm -C demo run dev",
-    "demo:prod": "npm -C demo run build && npm -C demo run serve",
-    "prepublishOnly": "npm run build && npm run test"
+    "demo:prod": "npm -C demo run build && npm -C demo run serve"
   },
   "peerDependencies": {
-    "vite": ">=2.0.0-beta.69"
+    "vite": ">=4.0.0"
   },
   "devDependencies": {
-    "jest": "^26.6.3",
-    "jest-dev-server": "^5.0.0",
-    "puppeteer": "^9.0.0",
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "cypress": "^12.1.0",
     "rimraf": "^3.0.2",
-    "tsup": "^3.12.1",
-    "typescript": "^4.1.5",
-    "vite": "^2.0.0-beta.69"
+    "tsup": "^6.5.0",
+    "typescript": "^4.9.4",
+    "vite": "^4.0.1"
   }
 }

@@ -1,8 +1,4 @@
-# vite-plugin-package-version
-
-[![npm](https://img.shields.io/npm/v/vite-plugin-package-version.svg)](https://www.npmjs.com/package/vite-plugin-package-version)
-
-**Note: this plugin requires `vite@^2.0.0-beta.69`**.
+# Vite Plugin to Display Package Version
 
 Load package version of your package.json into your [vite](https://github.com/vitejs/vite) environment.
 
@@ -11,16 +7,20 @@ Will inject `import.meta.env.PACKAGE_VERSION` with the version specified in your
 ## Installation
 
 ```
-npm i vite-plugin-package-version
+npm i @sws2apps/vite-plugin-package-version
 ```
 
 ## Usage
 
 ```js
 // vite.config.js
-import loadVersion from 'vite-plugin-package-version';
+import { defineConfig } from 'vite';
+import loadVersion from '@sws2apps/vite-plugin-package-version';
 
-export default {
+export default defineConfig({
   plugins: [loadVersion()],
-};
+});
 ```
+## Note
+
+This repo is taken from [vite-plugin-package-version](https://github.com/smnhgn/vite-plugin-package-version) by Simon Haugen with only some minor edits. Thanks to Simon for the original repo.

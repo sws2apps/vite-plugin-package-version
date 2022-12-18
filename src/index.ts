@@ -19,7 +19,7 @@ const createPlugin = (): Plugin => {
       if (envInjectionFailed) {
         config.logger.warn(
           `[vite-plugin-package-version] import.meta.env.PACKAGE_VERSION was not injected due ` +
-            `to incompatible vite version (requires vite@^2.0.0-beta.69).`
+            `to incompatible vite version (requires vite@^4.0.0).`
         );
       }
     },
