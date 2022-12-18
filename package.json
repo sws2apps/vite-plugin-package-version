@@ -2,7 +2,6 @@
   "name": "@sws2apps/vite-plugin-package-version",
   "description": "A vite plugin to load package version into environment variables",
   "version": "1.0.0",
-  "type": "module",
   "keywords": [
     "vite",
     "typescript",
@@ -29,7 +28,7 @@
     "clean": "rimraf {dist,package-lock.json,node_modules} && npm i",
     "test": "npx cypress run --browser chrome",
     "dev": "tsup src/index.ts --dts --watch",
-    "build": "rimraf dist && tsup src/index.ts --dts --format esm",
+    "build": "rimraf dist && tsup src/index.ts --dts",
     "demo:clean": "rimraf demo/{dist,package-lock.json,node_modules} && npm -C demo install",
     "demo:dev": "npm -C demo run dev",
     "demo:prod": "npm -C demo run build && npm -C demo run serve",
