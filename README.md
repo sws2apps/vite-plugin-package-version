@@ -15,12 +15,13 @@ npm i @sws2apps/vite-plugin-package-version
 ```js
 // vite.config.js
 import { defineConfig } from 'vite';
-import loadVersion from '@sws2apps/vite-plugin-package-version';
+import { loadVersion } from '@sws2apps/vite-plugin-package-version';
 
 export default defineConfig({
   plugins: [loadVersion()],
 });
 ```
+
 ## Note
 
 This repo is taken from [vite-plugin-package-version](https://github.com/smnhgn/vite-plugin-package-version) by Simon Haugen with only some minor edits. Thanks to Simon for the original repo.

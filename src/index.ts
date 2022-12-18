@@ -2,9 +2,9 @@ import type { Plugin } from 'vite';
 
 let envInjectionFailed = false;
 
-const createPlugin = (): Plugin => {
+export const loadVersion = (): Plugin => {
   return {
-    name: 'vite-plugin-package-version',
+    name: '@sws2apps/vite-plugin-package-version',
     config: (_, env) => {
       if (env) {
         const key = 'import.meta.env.PACKAGE_VERSION';
@@ -25,5 +25,3 @@ const createPlugin = (): Plugin => {
     },
   };
 };
-
-export default createPlugin;
