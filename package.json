@@ -21,7 +21,7 @@
   },
   "license": "MIT",
   "homepage": "https://github.com/sws2apps/vite-plugin-package-version#readme",
-  "main": "dist/index.js",
+  "main": "dist/index.cjs",
   "files": [
     "dist"
   ],
