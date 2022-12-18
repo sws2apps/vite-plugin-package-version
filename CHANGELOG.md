@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/sws2apps/vite-plugin-package-version/compare/v1.0.2...v1.1.0) (2022-12-18)
+
+
+### Features
+
+* **module:** switch to named export ([35ef1be](https://github.com/sws2apps/vite-plugin-package-version/commit/35ef1be2fa7bb439e42fa8e62470a10c5d8b09ca))
+
 ## [1.0.2](https://github.com/sws2apps/vite-plugin-package-version/compare/v1.0.1...v1.0.2) (2022-12-18)
 
 
