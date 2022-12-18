@@ -1,10 +1,10 @@
-import reactRefresh from '@vitejs/plugin-react-refresh';
+import react from '@vitejs/plugin-react';
 import { defineConfig } from 'vite';
-import loadVersion from 'vite-plugin-package-version';
+import loadVersion from '@sws2apps/vite-plugin-package-version';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [reactRefresh(), loadVersion()],
+  plugins: [react(), loadVersion()],
   server: {
     port: 3000,
     strictPort: true,

@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <div id="PACKAGE_VERSION">{import.meta.env.PACKAGE_VERSION}</div>
+        <div id="package_version">{import.meta.env.PACKAGE_VERSION}</div>
         <p>Hello Vite + React!</p>
         <p>
           <button onClick={() => setCount((count) => count + 1)}>
