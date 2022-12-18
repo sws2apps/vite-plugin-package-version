@@ -4,7 +4,11 @@
   "publishConfig": {
     "access": "public"
   },
+<<<<<<< HEAD
   "version": "1.0.0",
+=======
+  "version": "1.0.1",
+>>>>>>> b4f9d7043018fd8d3e6ca831a0c4828630642662
   "keywords": [
     "vite",
     "typescript",
