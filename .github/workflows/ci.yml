@@ -25,7 +25,7 @@ jobs:
         run: npm ci
 
       - name: Run cypress test
-        uses: cypress-io/github-action@ecd4b8bc2aa1732173acf612ac7894ca0d204774
+        uses: cypress-io/github-action@dfda9365a4881a8521b8e3c3538275242aae9151
         with:
           browser: chrome
           install: false
