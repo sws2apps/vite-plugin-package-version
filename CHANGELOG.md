@@ -1,3 +1,20 @@
+# [1.2.0](https://github.com/sws2apps/vite-plugin-package-version/compare/v1.1.0...v1.2.0) (2023-11-18)
+
+
+### Features
+
+* **deps:** bump cypress from 13.3.0 to 13.3.1 ([48b3fc5](https://github.com/sws2apps/vite-plugin-package-version/commit/48b3fc5ca1974e37481b2b2e95b5c328ed1ff9b8))
+* **deps:** bump cypress from 13.3.1 to 13.3.2 ([4bb2490](https://github.com/sws2apps/vite-plugin-package-version/commit/4bb249043d204e996861a3f5fdc839e96ebc2eb0))
+* **deps:** bump cypress from 13.3.2 to 13.3.3 ([e2f6784](https://github.com/sws2apps/vite-plugin-package-version/commit/e2f6784e8cef3a9abdcf513a5368432a605e44e0))
+* **deps:** bump cypress from 13.3.3 to 13.4.0 ([64337e6](https://github.com/sws2apps/vite-plugin-package-version/commit/64337e6757b42b29d8345fa1de87146cc7512a8a))
+* **deps:** bump cypress from 13.4.0 to 13.5.0 ([1dca37c](https://github.com/sws2apps/vite-plugin-package-version/commit/1dca37c9c68da8f59a8bd725558247ee5e41cc8c))
+* **deps:** bump cypress from 13.5.0 to 13.5.1 ([7823565](https://github.com/sws2apps/vite-plugin-package-version/commit/7823565e35e956cf080e3a4b92d23e1fc1b6015d))
+* **deps:** bump tough-cookie and @cypress/request ([fa60a58](https://github.com/sws2apps/vite-plugin-package-version/commit/fa60a58d1cc51fa9e6323833ff745a3db2486b92))
+* **deps:** bump tsup from 7.2.0 to 7.3.0 ([2d6299d](https://github.com/sws2apps/vite-plugin-package-version/commit/2d6299de1221b52c4860a73bd4b92f2d02d5287a))
+* **deps:** bump vite from 4.4.11 to 4.5.0 ([0502244](https://github.com/sws2apps/vite-plugin-package-version/commit/0502244a2ecf10cca18cd5e18e91b08a7e45c0e4))
+* **deps:** bump vite from 4.5.0 to 5.0.0 ([3f0886a](https://github.com/sws2apps/vite-plugin-package-version/commit/3f0886a024c62a839a7093d4a07908d3a811a98b))
+* **deps:** update vite peer dependency version ([a47f7da](https://github.com/sws2apps/vite-plugin-package-version/commit/a47f7da15d7a5a4347414deba4fa362d5a935a89))
+
 # [1.1.0](https://github.com/sws2apps/vite-plugin-package-version/compare/v1.0.2...v1.1.0) (2022-12-18)
 
 

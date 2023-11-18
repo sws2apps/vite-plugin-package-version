@@ -4,8 +4,14 @@
 	"publishConfig": {
 		"access": "public"
 	},
-	"version": "1.1.0",
-	"keywords": ["vite", "typescript", "package", "version", "environment"],
+	"version": "1.2.0",
+	"keywords": [
+		"vite",
+		"typescript",
+		"package",
+		"version",
+		"environment"
+	],
 	"author": "Scheduling Workbox System <sws2apps.notification@gmail.com>",
 	"repository": {
 		"type": "git",
@@ -18,7 +24,9 @@
 	"license": "MIT",
 	"homepage": "https://github.com/sws2apps/vite-plugin-package-version#readme",
 	"main": "dist/index.js",
-	"files": ["dist"],
+	"files": [
+		"dist"
+	],
 	"scripts": {
 		"clean": "rimraf {dist,package-lock.json,node_modules} && npm i",
 		"test": "npx cypress run --browser chrome",
