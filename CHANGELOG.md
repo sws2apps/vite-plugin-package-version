@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/sws2apps/vite-plugin-package-version/compare/v1.2.0...v1.3.0) (2023-11-18)
+
+
+### Features
+
+* **deps:** use semantic-release package ([e0956e9](https://github.com/sws2apps/vite-plugin-package-version/commit/e0956e9429438fee96b4b5004bb7c305fe147261))
+
 # [1.2.0](https://github.com/sws2apps/vite-plugin-package-version/compare/v1.1.0...v1.2.0) (2023-11-18)
 
 
