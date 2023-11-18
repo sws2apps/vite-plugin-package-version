@@ -1,53 +1,45 @@
 {
-  "name": "@sws2apps/vite-plugin-package-version",
-  "description": "A Vite plugin to load package version into environment variables",
-  "publishConfig": {
-    "access": "public"
-  },
-  "version": "1.1.0",
-  "keywords": [
-    "vite",
-    "typescript",
-    "package",
-    "version",
-    "environment"
-  ],
-  "author": "Scheduling Workbox System <sws2apps.notification@gmail.com>",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sws2apps/vite-plugin-package-version.git"
-  },
-  "bugs": {
-    "url": "https://github.com/sws2apps/vite-plugin-package-version/issues",
-    "email": "sws2apps.notification@gmail.com"
-  },
-  "license": "MIT",
-  "homepage": "https://github.com/sws2apps/vite-plugin-package-version#readme",
-  "main": "dist/index.js",
-  "files": [
-    "dist"
-  ],
-  "scripts": {
-    "clean": "rimraf {dist,package-lock.json,node_modules} && npm i",
-    "test": "npx cypress run --browser chrome",
-    "dev": "tsup src/index.ts --dts --watch",
-    "build": "rimraf dist && tsup src/index.ts --dts",
-    "demo:clean": "rimraf demo/{dist,package-lock.json,node_modules} && npm -C demo install",
-    "demo:dev": "npm -C demo run dev",
-    "demo:prod": "npm -C demo run build && npm -C demo run serve",
-    "cypress:build": "npm run build && npm run demo:clean"
-  },
-  "peerDependencies": {
-    "vite": ">=4.0.0"
-  },
-  "devDependencies": {
-    "@semantic-release/changelog": "^6.0.2",
-    "@semantic-release/exec": "^6.0.3",
-    "@semantic-release/git": "^10.0.1",
-    "cypress": "^13.0.0",
-    "rimraf": "^5.0.0",
-    "tsup": "^7.0.0",
-    "typescript": "^5.0.2",
-    "vite": "^5.0.0"
-  }
+	"name": "@sws2apps/vite-plugin-package-version",
+	"description": "A Vite plugin to load package version into environment variables",
+	"publishConfig": {
+		"access": "public"
+	},
+	"version": "1.1.0",
+	"keywords": ["vite", "typescript", "package", "version", "environment"],
+	"author": "Scheduling Workbox System <sws2apps.notification@gmail.com>",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/sws2apps/vite-plugin-package-version.git"
+	},
+	"bugs": {
+		"url": "https://github.com/sws2apps/vite-plugin-package-version/issues",
+		"email": "sws2apps.notification@gmail.com"
+	},
+	"license": "MIT",
+	"homepage": "https://github.com/sws2apps/vite-plugin-package-version#readme",
+	"main": "dist/index.js",
+	"files": ["dist"],
+	"scripts": {
+		"clean": "rimraf {dist,package-lock.json,node_modules} && npm i",
+		"test": "npx cypress run --browser chrome",
+		"dev": "tsup src/index.ts --dts --watch",
+		"build": "rimraf dist && tsup src/index.ts --dts",
+		"demo:clean": "rimraf demo/{dist,package-lock.json,node_modules} && npm -C demo install",
+		"demo:dev": "npm -C demo run dev",
+		"demo:prod": "npm -C demo run build && npm -C demo run serve",
+		"cypress:build": "npm run build && npm run demo:clean"
+	},
+	"peerDependencies": {
+		"vite": ">=4.0.0 || >=5.0.0"
+	},
+	"devDependencies": {
+		"@semantic-release/changelog": "^6.0.2",
+		"@semantic-release/exec": "^6.0.3",
+		"@semantic-release/git": "^10.0.1",
+		"cypress": "^13.0.0",
+		"rimraf": "^5.0.0",
+		"tsup": "^7.0.0",
+		"typescript": "^5.0.2",
+		"vite": "^5.0.0"
+	}
 }
