@@ -47,7 +47,7 @@
 		"cypress": "^13.0.0",
 		"rimraf": "^5.0.0",
 		"semantic-release": "^22.0.8",
-		"tsup": "^7.0.0",
+		"tsup": "^8.0.0",
 		"typescript": "^5.0.2",
 		"vite": "^5.0.0"
 	}
