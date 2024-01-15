@@ -46,7 +46,7 @@
 		"@semantic-release/git": "^10.0.1",
 		"cypress": "^13.0.0",
 		"rimraf": "^5.0.0",
-		"semantic-release": "^22.0.8",
+		"semantic-release": "^23.0.0",
 		"tsup": "^8.0.0",
 		"typescript": "^5.0.2",
 		"vite": "^5.0.0"
