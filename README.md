@@ -1,5 +1,7 @@
 # Vite Plugin to Display Package Version
 
+DISCLAIMER: As the original package from [smnhgn/vite-plugin-typescript-starter](https://github.com/smnhgn/vite-plugin-package-version) now supports ESM, we will be soon deprecating this package.
+
 Load package version of your package.json into your [vite](https://github.com/vitejs/vite) environment.
 
 Will inject `import.meta.env.PACKAGE_VERSION` with the version specified in your package.json.
